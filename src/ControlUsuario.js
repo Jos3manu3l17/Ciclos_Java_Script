@@ -9,24 +9,27 @@ let contraseñaCorrecta = "12345";
 
 for (let i = 1; i <= 3; i++) {
 
-    let usuario = prompt("Ingrese el usuario");
-    let contraseña = prompt("Ingrese la contraseña");
+  let usuario = prompt("Ingrese el usuario");
+  let contraseña = prompt("Ingrese la contraseña");
 
-    if (usuario == usuarioCorrecto && contraseña == contraseñaCorrecta) {
+  if (usuario == usuarioCorrecto && contraseña == contraseñaCorrecta) {
 
-        console.log("Bienvenido");
-        break;
 
-    } else {
+    console.log("Bienvenido");
+    break;
 
-        console.log("Datos incorrectos");
 
-    }
+  } else {
 
-    if (i == 3) {
+    console.log("Datos incorrectos");
 
-        console.log("Acceso denegado");
+  }
 
-    }
+
+  if (i == 3) {
+
+    console.log("Acceso denegado");
+
+  }
 
 }
