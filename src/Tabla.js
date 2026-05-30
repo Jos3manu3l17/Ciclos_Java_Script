@@ -1,9 +1,9 @@
 console.log("=== Inicio del sistema de tabla de multiplicar ===");
 
-// Ejercicio 2 – Tabla de multiplicar personalizada 
-// Crea un programa que: dado un número ingresado por el usuario, muestre 
-// su tabla de  multiplicar hasta el 12. El ciclo debe permitir repetir 
-// el proceso si el usuario desea  consultar otra tabla. 
+// Ejercicio 2 – Tabla de multiplicar personalizada //
+// Crea un programa que: dado un número ingresado por el usuario, muestre //
+// su tabla de  multiplicar hasta el 12. El ciclo debe permitir repetir //
+// el proceso si el usuario desea  consultar otra tabla. //
 
 // Aqui le pedimos el numero de la tabla que el usuario desea repasar
 let numero = parseInt(prompt("Ingrese el numero de la tabla que desea repasar:" ));
