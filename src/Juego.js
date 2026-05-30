@@ -10,20 +10,22 @@ let intento = 0;
 
 for (; intento != numeroSecreto;) {
 
-    intento = parseInt(prompt("Adivine el número entre 1 y 20"));
 
-    if (intento < numeroSecreto) {
+  intento = parseInt(prompt("Adivine el número entre 1 y 20"));
 
-        console.log("El número es mayor");
+  if (intento < numeroSecreto) {
 
-    } else if (intento > numeroSecreto) {
+    console.log("El número es mayor");
 
-        console.log("El número es menor");
+  } else if (intento > numeroSecreto) {
 
-    } else {
+    console.log("El número es menor");
 
-        console.log("¡Correcto! Adivinaste el número");
 
-    }
+  } else {
+
+    console.log("¡Correcto! Adivinaste el número");
+
+  }
 
 }
