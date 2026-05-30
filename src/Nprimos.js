@@ -9,11 +9,12 @@ console.log("=== Imicio del sistema de clasificacion de numeros primos ===");
 for (numero = 1; numero <= 50; numero++) {
     let esPrimo = true;
 
-
+    
     if (numero <= 1) {
         esPrimo = false;
+
     } else {
-        // Este ciclo revisa si el numero tiene divisores
+        // Este ciclo revisa si el numero tiene divisores//
         for (let i = 2; i < numero; i++) {
             if (numero % i === 0) {
                 esPrimo = false;
@@ -21,7 +22,7 @@ for (numero = 1; numero <= 50; numero++) {
         }
     }
 
-    // Mostrar los numeros primos 
+    // Mostrar los numeros primos //
     if (esPrimo) {
         console.log(numero);
     }

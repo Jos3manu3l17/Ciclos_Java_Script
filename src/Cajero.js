@@ -8,6 +8,7 @@ console.log("=== inicio del sistema de cajero automatico ===");
 
 // Aqui sde definen las variables constantes y normal 
 const saldoInicial = 100000;
+
 let saldo = saldoInicial;
 
 // En este bucle se recorre 3 veces lo que desea retirar el usuario

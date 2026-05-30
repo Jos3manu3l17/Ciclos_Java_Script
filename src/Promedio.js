@@ -5,7 +5,7 @@ console.log("== Inicio del sistema de calculo de promedio de notas ===");
 // mediante condicionales, si aprueba (nota ≥ 3.0) o reprueba. Usa ciclos para  ingresar los datos de 
 // manera ordenada. 
 
-// Este es el bucle que recorre las veces a calificar de cada estudiante
+// Este es el bucle que recorre las veces a calificar de cada estudiante 
 for (let i = 1; i <= 5; i++) {
 
     console.log("Estudiante " + i);
